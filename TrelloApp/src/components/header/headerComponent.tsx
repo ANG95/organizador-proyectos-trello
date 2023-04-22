@@ -7,7 +7,7 @@ import { styles } from './styles';
 import { useSelector } from 'react-redux';
 import { signInSelector } from '../../screens/signIn/selectors/signInSelector';
 import { BASE_URL } from '../../utils/constants';
-import PngImage from '../../../assets/png';
+import JpgImage from '../../assets/images/jpg';
 import { Color } from '../../theme/colorTheme';
 import { SvgIconTypes } from '../svgIcon/icons';
 export interface rightOptionProps {
@@ -55,7 +55,7 @@ export const Header = ({ goBack, bg, bgSB, title, rightOption, image }: HeaderPr
             </TouchableOpacity>
           )}
           <Image
-            source={image ? { uri: image } : { uri: `${BASE_URL}${thumbnailImage}` } || PngImage.akiToyLogo}
+            source={image ? { uri: image } : { uri: `${BASE_URL}${thumbnailImage}` } || JpgImage.akiToyLogo}
             style={{
               width: verticalScale(35),
               height: verticalScale(35),

@@ -1,0 +1,2 @@
+export const CLOSE =
+'<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1.72 1.999 10.56 10.56m0-10.56L1.72 12.559" stroke="#C21B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'

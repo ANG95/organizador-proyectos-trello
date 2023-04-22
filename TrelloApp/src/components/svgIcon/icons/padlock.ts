@@ -1,0 +1,2 @@
+export const PADLOCK =
+'<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.2 10.839H4.8v10.56h14.4v-10.56ZM12 3.159c2.916 0 5.28 2.149 5.28 4.8v2.88H6.72v-2.88c0-2.651 2.364-4.8 5.28-4.8Z" stroke="#BAC4C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="10.56" y="13.719" width="2.88" height="1.92" rx=".96" fill="#BAC4C7"/></svg>'

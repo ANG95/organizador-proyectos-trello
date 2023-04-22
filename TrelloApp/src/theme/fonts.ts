@@ -1,0 +1,18 @@
+export const Montserrat = {
+  Regular: 'Montserrat-Regular',
+  Black: 'Montserrat-Black',
+  BlackItalic: 'Montserrat-BlackItalic',
+  Bold: 'Montserrat-Bold',
+  BoldItalic: 'Montserrat-BoldItalic',
+  ExtraBold: 'Montserrat-ExtraBold',
+  ExtraBoldItalic: 'Montserrat-ExtraBoldItalic',
+  ExtraLight: 'Montserrat-ExtraLight',
+  ExtraLightItalic: 'Montserrat-ExtraLightItalic',
+  ExtraItalic: 'Montserrat-ExtraItalic',
+  Light: 'Montserrat-Light',
+  LightItalic: 'Montserrat-LightItalic',
+  Medium: 'Montserrat-Medium',
+  MediumItalic: 'Montserrat-MediumItalic',
+  SemiBold: 'Montserrat-SemiBold',
+  SemiBoldItalic: 'Montserrat-SemiBoldItalic',
+}

@@ -1,0 +1,2 @@
+export const LOCATION =
+'<svg width="35" height="49" viewBox="0 0 35 49" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.788 2C9.068 2 2 9.02 2 17.739c0 11.78 15.788 29.195 15.788 29.195s15.787-17.415 15.787-29.195C33.575 9.019 26.507 2 17.788 2Z" stroke="#007AFF" stroke-width="2.453"/><path d="M17.788 22.888a5.586 5.586 0 1 0 0-11.173 5.586 5.586 0 0 0 0 11.173Z" stroke="#007AFF" stroke-width="2.429"/></svg>'

@@ -1,0 +1,2 @@
+export const PERSONAL_INFO_FILL =
+'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#00A5DD" d="M3 3h15v18H3z"/><path d="M22 7v12c0 1.333-.667 2-2 2m0 0c-1.333 0-2-.667-2-2V3H2v15c0 2 1 3 3 3h15ZM6 16h1m4 0h3m-8-4h8M6 8h8" stroke="#00A5DD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path stroke="#fff" stroke-width="2" stroke-linecap="round" d="M6 8h8m-8 4h8m-8 4h1m4 0h3"/></svg>'

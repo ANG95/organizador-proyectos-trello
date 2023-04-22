@@ -1,8 +1,9 @@
 import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';
+import { TOKEN } from '../../../utils/constants';
 export const signInAdapter = createEntityAdapter();
 
 const initialState = {
-  token: null,
+  token: TOKEN,
   loading: false,
   userName: '',
   userEmail: '',

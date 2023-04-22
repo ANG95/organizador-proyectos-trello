@@ -1,17 +1,15 @@
+import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import { Text, View } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { Provider } from 'react-redux';
+import { RootNavigator } from './navigation';
+import store from './redux/store';
 
-function App(): JSX.Element {
-  return (
-    <View
-      style={{
-        backgroundColor: Colors.black,
-      }}>
-      <Text>Bienvenido:</Text>
-    </View>
-
-  );
-}
+const App = () => (
+  <Provider store={store}>
+    <NavigationContainer >
+      <RootNavigator />
+    </NavigationContainer>
+  </Provider>
+);
 
 export default App;

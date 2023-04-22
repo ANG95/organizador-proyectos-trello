@@ -3,8 +3,8 @@ import React from 'react';
 import { styles } from './styles';
 import Modal from 'react-native-modal';
 import Lottie from 'lottie-react-native';
-import LottieImg from '../../../assets/lottie';
-import PngImage from '../../../assets/png';
+import LottieImg from '../../assets/lottie';
+import JpgImage from '../../assets/images/jpg';
 import { verticalScale, SCREEN_HEIGHT } from '../../utils/responsive';
 
 interface AbsoluteLoadingProps {
@@ -24,7 +24,7 @@ export const AbsoluteLoading = ({ visible }: AbsoluteLoadingProps) => {
       <View style={styles.centeredView}>
         <View style={styles.logoContainer}>
           <Image
-            source={PngImage.akiToyLogo}
+            source={JpgImage.userDefault}
             style={{
               width: verticalScale(80),
               height: verticalScale(100),

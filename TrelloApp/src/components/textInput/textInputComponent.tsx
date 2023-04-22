@@ -131,13 +131,6 @@ export const TextInput = ({ label, iconLeft, onChange, error,
           : iconRight || error ?
             <View style={styles.iconContainer}>
               <SvgIcon
-                // icon={
-                //   !isInputPassword ?
-                //     iconRight :
-                //     viewCharters ?
-                //       'openEye' :
-                //       'closedEye'
-                // }
                 icon={error ? 'close' : iconRight}
                 width={verticalScale(isInputPassword ? 30 : 30)}
                 height={verticalScale(isInputPassword ? 30 : 20)}

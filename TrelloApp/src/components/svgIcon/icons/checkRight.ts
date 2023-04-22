@@ -1,0 +1,2 @@
+export const CHECK_RIGHT =
+'<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.6816 1.22L6.12164 11.78L1.80164 7.46" stroke="#48A926" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'

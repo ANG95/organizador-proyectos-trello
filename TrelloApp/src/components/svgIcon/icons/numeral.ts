@@ -1,0 +1,2 @@
+export const NUMERAL =
+'<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m9 3.779-1 18m13-12-18-1m18 8-18-1m13-12-1 18" stroke="#BAC4C7" stroke-width="2" stroke-linecap="round"/></svg>'

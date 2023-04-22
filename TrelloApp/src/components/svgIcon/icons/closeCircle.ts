@@ -1,0 +1,2 @@
+export const CLOSE_CIRCLE =
+'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m15.36 8.64-6.72 6.72m6.72 0L8.64 8.64M12 23C5.925 23 1 18.075 1 12S5.925 1 12 1s11 4.925 11 11-4.925 11-11 11Z" stroke="#C21B1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'

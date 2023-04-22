@@ -1,0 +1,2 @@
+export const VERTICAL_POINTS =
+'<svg width="100" height="100" viewBox="-6 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" fill-rule="evenodd"/></svg>'

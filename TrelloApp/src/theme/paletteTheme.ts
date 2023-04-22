@@ -8,7 +8,7 @@ export const palette = {
   greyTertiary: '#878D8F',
   greyFourth: '#F5F5F5',
   greyQuinary: '#F2F2F2',
-  info: '#55AEF5',
+  info: '#2479bd',
   success: '#48A926',
   warning: '#FFA016',
   error: '#C21B1B',

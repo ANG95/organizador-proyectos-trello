@@ -64,10 +64,10 @@ Please visit https://trello.com/app-key to get your key and secret (token)
 #### Siga estos paso para ejecutar el proyecto
     Intalar dependencias: yarn
     Android: cd android && ./graldew clean
-    IOS: cd ios && pod install:
+    IOS: cd ios && pod install
 
     Correr el proyecto:
-    yarn ios:
+    yarn ios
     yarn android
 
 

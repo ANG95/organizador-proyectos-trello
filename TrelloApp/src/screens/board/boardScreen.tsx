@@ -1,5 +1,5 @@
-import { View, FlatList, Animated, PanResponder } from 'react-native'
-import React, { useRef } from 'react'
+import { View, FlatList } from 'react-native'
+import React from 'react'
 import { useBoardItems } from './hooks/useBoardItems'
 import { Divider } from '../../components'
 import styles from './styles'
@@ -8,18 +8,6 @@ import BoardColumn from './components/boardColumn/boardColumn'
 
 const BoardScreen = ({ route }: NavigationPropsType) => {
   const { boardDataItems } = useBoardItems(route?.params.boardItemsId)
-  const pan = useRef(new Animated.ValueXY()).current;
-
-  const panResponder = useRef(
-    PanResponder.create({
-      onMoveShouldSetPanResponder: () => true,
-      onPanResponderMove: Animated.event([null, { dx: pan.x, dy: pan.y }], { useNativeDriver: false }),
-      onPanResponderRelease: () => {
-        pan.extractOffset();
-      },
-    }),
-  ).current;
-
   return (
     <View style={styles.boardContainer}>
       <View>
@@ -32,17 +20,6 @@ const BoardScreen = ({ route }: NavigationPropsType) => {
           horizontal
         />
       </View>
-
-      {/* <View style={{}}>
-        <Text style={styles.titleText}>Drag this box!</Text>
-        <Animated.View
-          style={{
-            transform: [{ translateX: pan.x }, { translateY: pan.y }],
-          }}
-          {...panResponder.panHandlers}>
-          <View style={styles.box} />
-        </Animated.View>
-      </View> */}
     </View>
   )
 }

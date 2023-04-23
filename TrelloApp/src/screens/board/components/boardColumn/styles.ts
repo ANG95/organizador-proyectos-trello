@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: Color.disabled,
     backgroundColor: Color.palette.greyFourth,
-    marginBottom: horizontalScale(40),
+    marginBottom: horizontalScale(60),
     alignSelf: 'flex-start'
   },
   columnLabel: {

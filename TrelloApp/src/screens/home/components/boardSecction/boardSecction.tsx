@@ -11,9 +11,7 @@ interface BoardSectionProps {
   navigate: () => void;
 }
 
-const BoardSection = ({ board, navigate }: BoardSectionProps) => {
-
-  return (
+const BoardSection = ({ board, navigate }: BoardSectionProps) =>(
     <TouchableOpacity onPress={navigate}>
       <View style={styles.sectionContainer}>
         <LinearGradient
@@ -37,7 +35,6 @@ const BoardSection = ({ board, navigate }: BoardSectionProps) => {
 
       </View>
     </TouchableOpacity>
-  )
-}
+)
 
 export default BoardSection

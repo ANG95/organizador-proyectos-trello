@@ -69,5 +69,10 @@ Please visit https://trello.com/app-key to get your key and secret (token)
     Correr el proyecto:
     yarn ios
     yarn android
+    
+#### Para ejecutar las pruebas unitarias
+    Ejecute: yarn test
+
+
 
 

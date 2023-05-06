@@ -1,7 +1,7 @@
 import { configureStore, getDefaultMiddleware, Middleware } from '@reduxjs/toolkit';
 import rootReducer from './rootReducer';
 
-const middleware = getDefaultMiddleware({
+export const middleware = getDefaultMiddleware({
   immutableCheck: false,
 });
 
@@ -12,7 +12,9 @@ if (__DEV__) {
 
 export const store = configureStore({
   reducer: rootReducer,
-  middleware: middleware,
+  middleware: (getDefaultMiddleware) =>
+  getDefaultMiddleware({
+  }),
 });
 
 export default store;

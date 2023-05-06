@@ -1,0 +1,36 @@
+export const mockBoardsData = [
+  {
+    "closed": false,
+    "creationMethod": "automatic",
+    "dateLastActivity": "2023-04-22T15:59:58.351Z",
+    "dateLastView": "2023-04-23T15:25:35.911Z",
+    "desc": "",
+    "enterpriseOwned": false,
+    "id": "12",
+    "idMemberCreator": "6442ae1f3673339b4ba02a0d",
+    "idOrganization": "6442af22934e7d8725ef5799",
+    "idTags": [],
+    "ixUpdate": "76",
+    "name": "New Office Setup",
+    "pinned": false,
+    "powerUps": [],
+    "prefs": {
+      "background": "gradient-peach",
+      "backgroundBottomColor": "#FAA53D",
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#EF763A",
+      "backgroundImage": "https://d2k1ftgv7pobq7.cloudfront.net/images/backgrounds/gradients/peach.svg",
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundTopColor": "#E34935",
+      "comments": "members",
+      "voting": "disabled"
+    },
+    "shortLink": "InMUE2yH",
+    "shortUrl": "https://trello.com/b/InMUE2yH",
+    "starred": false,
+    "subscribed": false,
+    "templateGallery": null,
+    "url": "https://trello.com/b/InMUE2yH/new-office-setup"
+  },
+]

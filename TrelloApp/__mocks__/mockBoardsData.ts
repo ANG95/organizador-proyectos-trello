@@ -1,3 +1,5 @@
+// TODO: this data must be refactored so that only fake data is used
+
 export const mockBoardsData = [
   {
     "closed": false,

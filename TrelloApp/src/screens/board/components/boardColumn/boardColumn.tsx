@@ -9,6 +9,7 @@ interface BoardColumnProps {
 }
 
 const BoardColumn = ({ item }: BoardColumnProps) => {
+  const handleAddCard=()=>{  }
   return (
     <View style={styles.columnContainer}  >
       <Text style={styles.columnLabel}>{item.name}</Text>
@@ -26,7 +27,7 @@ const BoardColumn = ({ item }: BoardColumnProps) => {
               <Text style={styles.cardLabel}>{itemBoard.name}</Text>
             </View>
           ))}
-          <TouchableOpacity style={styles.addCardButton}        >
+          <TouchableOpacity style={styles.addCardButton} onPress={()=>handleAddCard()}>
             <SvgIcon icon="circlePlus" widthScale={15} heightScale={18} />
             <Divider x={5} />
             <Text style={styles.cardLabel}>Agregar card</Text>

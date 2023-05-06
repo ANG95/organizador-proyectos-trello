@@ -73,6 +73,10 @@
       "<rootDir>/ios",
       "<rootDir>/node_modules",
       "<rootDir>/__tests__/jestSetup.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/styles/",
+      "<rootDir>/src/components/"
     ]
   }
 }

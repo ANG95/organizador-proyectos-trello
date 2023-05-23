@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, FlatList } from 'react-native'
 import { useBoardsList } from './hooks/useBoardList'
-import BoardSection from './components/boardSecction/boardSecction'
+import BoardSection from './components/boardSection/boardSection'
 import styles from './styles'
 import { PrivateRoutes } from '../../navigation/navigationNames/privateRoutes'
 import { NavigationPropsType } from '../../interfaces/interfaces'
